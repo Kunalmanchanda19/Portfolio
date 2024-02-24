@@ -69,7 +69,9 @@ function ResponsiveAppBar() {
             }}
             // sx={{ flexGrow: 1, color: (theme: { palette: { common: { white: any; }; }; }) => theme.palette.common.white }}
           >
+            <Link href="/" sx={{textDecoration:"none" , color:"white"}}>
             Kunal Manchanda
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -129,7 +131,9 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
+            <Link href="/">
             Kunal Manchanda
+            </Link>
             
           </Typography>
           <Grid item className="" sx={{ display: { xs: "flex", md: "none" }, }}>
